@@ -1,0 +1,305 @@
+
+
+
+.startPoint{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 899998989;
+    background-image: url("../astep/arrow.jpg");
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#section01{
+    width: 1920px;
+    height: 1296px;
+    background-image: url(../astep/main/main_bg.jpg);
+}
+
+#section01 .title{
+    position: absolute;
+    left: 370px;
+    top: 469px;
+
+    overflow: hidden;
+}
+
+
+#section01 .title img{
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+
+#section01.on .title img{
+    transform: translateY(0);
+}
+
+
+#section01 .gnb{
+    height: 13px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 1233px;
+    margin-right: 217px;
+}
+
+#section01 .gnb .shop{
+    height: 13px;
+}
+
+#section02{
+    width: 100vw;
+    height: 1343px;
+    background-image: url(../astep/main/2/bg_2.jpg);
+}
+
+#section02 .text2065{
+    position: absolute;
+    left: 301px;
+    top: 335px;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section02.on .text2065 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+#section03{
+    width: 100vw;
+    height: 2006px;
+    background-image: url(../astep/main/3/bg_3.jpg);
+}
+
+
+
+#section03 .click_button{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section03 .fold{
+    position: absolute;
+    left: 226px;
+    top: 0;
+    overflow: hidden;
+    height: 0;
+    transition: all 1s;
+    z-index: 999;
+}
+
+#section03 .fold.on{
+    height: 1822px;
+}
+
+/*#section03 .fold img{*/
+/*    transform: translateY(100%);*/
+/*    transition: all 1s;*/
+/*}*/
+
+/*#section03.on .fold img{*/
+/*    transform: translateY(0);*/
+/*}*/
+
+#section03 .hold_drag{
+    position: absolute;
+    left: 66px;
+    top: 1162px;
+    animation: circle 5s infinite linear;
+}
+
+@keyframes circle {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+#section03 .drag_bar .long{
+    width: 1470px;
+    position: absolute;
+    left: 225px;
+    bottom: 93px;
+    height: 2px;
+    background: #e2e2e2;
+}
+
+
+#section03 .drag_img_left{
+    width: 1694px;
+    height: 749px;
+    position: absolute;
+    right: 0;
+    bottom: 185px;
+}
+
+
+#section04{
+    width: 100vw;
+    height: 3692px;
+    background-image: url(../astep/main/4/bg_4.jpg);
+}
+
+#section04 .img04{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 342px;
+}
+
+#section04 .left{
+    width: 706px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 98px;
+    /*margin-top: 342px;*/
+    /*margin-right: 60px;*/
+    margin-bottom: 409px;
+}
+
+#section04 .left .top_1{
+    padding-bottom: 57px;
+}
+
+#section04 .left .center_1{
+    padding-bottom: 57px;
+}
+
+#section04 .right{
+    width: 847px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*margin-top: 342px;*/
+    margin-right: 125px;
+    margin-bottom: 132px;
+}
+
+#section04 .right .top_2{
+    padding-bottom: 57px;
+}
+
+#section04 .right .center_2{
+    padding-bottom: 57px;
+}
+
+#section04 .img04 > div {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04.on .img04 > div {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+
+#section05{
+    height: 1025px;
+    background: white;
+}
+
+#section05 .left_05{
+    width: 100vw;
+    position: absolute;
+    right: 0;
+    top: 162px;
+}
+
+#section05 .left_05 .swiper-slide{
+    width: 100vw;
+    height: 604px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+#section05 .long_2{
+    width: 1667px;
+    position: absolute;
+    left: 126px;
+    bottom: 125px;
+    height: 2px;
+    background: #e2e2e2;
+}
+
+#section06{
+    height: 1126px;
+    background-image: url(../astep/main/6/bg_6.jpg);
+}
+
+#section06 .title{
+    position: absolute;
+    left: 188px;
+    top: 136px;
+}
+
+#section06 .designer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 167px;
+    margin-top: 136px;
+    margin-left: 1424px;
+}
+
+#section06 .text_6{
+    position: absolute;
+    left: 674px;
+    top: 450px;
+}
+
+#section06 > div {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section06.on > div {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#section06 > div:nth-child(1) {
+    transition-delay: 0.2s;
+}
+
+#section06 > div:nth-child(2) {
+    transition-delay: 0.3s;
+}
+
+#section06 > div:nth-child(3) {
+    transition-delay: 0.5s;
+}
+
+
+#section07{
+    height: 1005px;
+    background-image: url(../astep/main/7/innovation.jpg);
+}
+
+
+#footer{
+    height: 1024px;
+    background-image: url(../astep/main/7/news_footer.jpg);
+}
+
+
+
+
+
+
+

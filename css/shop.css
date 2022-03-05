@@ -1,0 +1,243 @@
+
+
+
+.startPoint{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 899998989;
+    background-image: url("../astep/arrow.jpg");
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#section01{
+    height: 1193px;
+    background-image: url("../astep/shopping/main_bg.jpg");
+}
+
+#section01 .gnb{
+    height: 13px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 1233px;
+    margin-right: 217px;
+}
+
+#section01 .astep{
+    position: absolute;
+    left: 106px;
+    top: 194px;
+    overflow: hidden;
+}
+
+#section01 .astep img{
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+
+#section01.on .astep img{
+    transform: translateY(0);
+}
+
+
+#section01 .new{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#section01 .new img{
+    transform: translateX(-30PX);
+    transition: all 1s;
+}
+
+
+#section01.on .new img{
+    transform: translateX(0);
+}
+
+#section02{
+    height: 276px;
+    background: white;
+}
+
+#section02 .view{
+    position: absolute;
+    left: 611px;
+    top: 159px;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section02.on .view {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+#section03{
+    height: 1215px;
+    background-image: url("../astep/shopping/2/bg.jpg");
+}
+
+#section03 .button{
+    display: flex;
+    justify-content: space-between;
+    margin: 800px 61px 216px 61px;
+    z-index: 999;
+    position: relative;
+}
+
+#section03 .left{
+    width: 478px;
+    height: 648px;
+    position: absolute;
+    left: 125px;
+    top: 212px;
+}
+
+
+#section03 .center{
+    width: 623px;
+    height: 836px;
+    position: absolute;
+    left: 649px;
+    top: 322px;
+}
+
+#section03 .right{
+    width: 481px;
+    height: 643px;
+    position: absolute;
+    right: 125px;
+    top: 212px;
+}
+
+#section04{
+    height: 2404px;
+    background-image: url("../astep/shopping/3/bg3.jpg");
+}
+
+#section02.on .text2065 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+#section04 .title{
+    position: absolute;
+    left: 683px;
+    top: 209px;
+    overflow: hidden;
+}
+
+#section04 .title img{
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+
+#section04.on .title img{
+    transform: translateY(0);
+}
+
+#section04 .slow{
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section04.on .slow {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#section04 > div:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+#section04 .slow .one{
+    position: absolute;
+    left: 143px;
+    top: 363px;
+}
+
+#section04 .slow .two{
+    position: absolute;
+    left: 143px;
+    top: 1416px;
+}
+#section04 .slow .two .vv_up{
+    position: absolute;
+    right: -660px;
+    top: 0;
+}
+#section04 .slow .two .vv_down{
+    position: absolute;
+    right: -660px;
+    bottom: 0;
+}
+
+#section05{
+    height: 695px;
+    background-image: url("../astep/shopping/banner.jpg");
+}
+
+#section06{
+    height: 1741px;
+    background-image: url("../astep/shopping/bg5.jpg");
+}
+
+#section06 .one{
+    position: absolute;
+    left: 0;
+    top: 225px;
+}
+#section06 .two{
+    position: absolute;
+    right: 127px;
+    bottom: 289px;
+}
+#section06 .candela{
+    position: absolute;
+    left: 130px;
+    bottom: 333px;
+    overflow: hidden;
+}
+
+#section06 .candela img{
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+
+#section06.on .candela img{
+    transform: translateY(0);
+}
+
+#section07{
+    height: 631px;
+    background-image: url("../astep/shopping/banner2.jpg");
+}
+
+#section08{
+    height: 1816px;
+    background-image: url("../astep/shopping/list.jpg");
+}
+
+#footer{
+    height: 759px;
+    background-image: url("../astep/shopping/shop_footer.jpg ");
+
+}
+

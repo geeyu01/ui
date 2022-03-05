@@ -1,0 +1,124 @@
+
+
+
+.startPoint{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 899998989;
+    background-image: url("../astep/arrow.jpg");
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#section01{
+    height: 1147px;
+    background-image: url("../astep/contact/contact_bg.jpg");
+}
+
+#section01 .gnb{
+    height: 13px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 69px;
+    margin-left: 1233px;
+    margin-right: 217px;
+}
+
+#section01 .contact1{
+    position: absolute;
+    left: 98px;
+    top: 187px;
+    overflow: hidden;
+}
+
+
+#section01 .contact1 img{
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+
+#section01.on .contact1 img{
+    transform: translateY(0);
+}
+
+
+#section01 .http{
+    position: absolute;
+    left: 98px;
+    top: 277px;
+}
+
+#section01 .info{
+    position: absolute;
+    left: 714px;
+    top: 490px;
+}
+
+#section02{
+    height: 1226px;
+    background: white;
+}
+
+#section02.on .touch{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 1s;
+}
+
+#section02 .touch{
+    transform: translateY(20px);
+    position: absolute;
+    left: 176px;
+    top: 226px;
+    opacity: 0;
+}
+
+#section03{
+    height: 2715px;
+    background: white;
+}
+
+#section03 > div {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+#section03.on > div {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#section03 > div:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+#section03 > div:nth-child(2) {
+    transition-delay: 0.6s;
+}
+
+
+
+#section03 .map{
+    position: absolute;
+    left: 237px;
+    top: 69px;
+}
+#section03 .location{
+    position: absolute;
+    left: 239px;
+    top: 1128px;
+}
+
+#footer{
+    height: 754px;
+    background-image: url("../astep/contact/footer.jpg");
+}
+
